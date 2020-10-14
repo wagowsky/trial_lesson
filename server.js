@@ -10,6 +10,9 @@ const artistRoutes=require("./routes/artistRoutes")
 // INITIALISING EXPRESS
 const app=express()
 
+// BODYPARSER
+app.use(express.json())
+
 //CONNECTING TO THE DATABASE
 const connectDB=async()=>{
 
@@ -32,6 +35,7 @@ try {
    
 }
 
+connectDB()
 
 // DEFINIG ROUTES
 app.use("/api/albums",albumRoutes)
