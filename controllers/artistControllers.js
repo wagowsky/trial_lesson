@@ -1,7 +1,4 @@
 
-// IMPORTING MONGOOSE
-const mongoose=require("mongoose")
-
 // IMPORTING THE RELEVANT MODEL
 const Artist=require("../models/artistModel")
 
