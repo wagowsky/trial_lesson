@@ -1,5 +1,11 @@
+
+// IMPORTING MONGOOSE
 const mongoose=require("mongoose")
+
+// IMPORTING THE RELEVANT MODEL
 const Album=require("../models/albumModel")
 
-
+// DEFINING AND EXPORTING A SPECIFIC CONTROLLER METHOD
+// GET ALL ALBUMS(ENTRIES) FROM THE ALBUMS COLLECTION
+// USING ASYNC-AWAIT AND TRY-CATCH
 exports.getAlbums=
